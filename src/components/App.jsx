@@ -6,8 +6,6 @@ function App(){
   return (
     <div className={styles.app}>
         <Home />
-        <h1>hello world!</h1>
-
     </div>
   );
 }

@@ -1,7 +1,10 @@
 .app {
-  background: red; /* For browsers that do not support gradients */
+
+height: 1000px;
+
 background: -webkit-linear-gradient(left,rgb(229, 248, 255),rgb(168, 187, 193)); /*Safari 5.1-6*/
 background: -o-linear-gradient(right,rgb(229, 248, 255),rgb(168, 187, 193)); /*Opera 11.1-12*/
 background: -moz-linear-gradient(right,rgb(229, 248, 255),rgb(168, 187, 193)); /*Fx 3.6-15*/
 background: linear-gradient(to right, rgb(229, 248, 255), rgb(168, 187, 193), rgb(134, 154, 160) 95%, rgb(168, 187, 193), rgb(229, 248, 255)); /*Standard*/
+
 }
