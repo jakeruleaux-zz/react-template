@@ -1,12 +1,13 @@
 import React from "react";
-import styles from "./../styles/App.css";
+import Home from './Home';
+import styles from './../styles/App.css';
 
 function App(){
   return (
-    <div className = {styles.app}>
-      <div className = {styles.container}>
+    <div className={styles.app}>
+        <Home />
         <h1>hello world!</h1>
-      </div>
+
     </div>
   );
 }
