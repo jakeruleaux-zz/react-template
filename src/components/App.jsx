@@ -2,17 +2,16 @@ import React from "react";
 import { Switch, Route } from 'react-router-dom';
 import Home from './Home';
 import styles from './../styles/App.css';
-import About from './About';
 import Contact from './Contact';
+import About from './About';
 
-function App(){
+const App = () =>{
   return (
     <div className={styles.app}>
-        <Home />
         <Switch>
-            <Route path='/home' component={Home} />
-          <Route path='/about' component={About} />
+          <Route exact path='/' component={Home} />
           <Route path='/contact' component={Contact} />
+          <Route path='/about' component={About} />
         </Switch>
     </div>
   );

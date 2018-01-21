@@ -10,8 +10,6 @@ const SideBar = () => {
       <Link to='/about'>About</Link>
       <br />
       <Link to='contact'>Contact</Link>
-      <About />
-      <Contact />
     </div>
   );
 };
