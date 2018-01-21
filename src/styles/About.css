@@ -1,0 +1,17 @@
+.aboutdata {
+  /* background-color: pink; */
+  height: 250px;
+  width: 250px;
+  border-style: outset;
+  border-width: 2px;
+  border-color: black;
+
+
+}
+
+.wrapper {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 100%;
+}
