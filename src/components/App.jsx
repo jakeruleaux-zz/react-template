@@ -10,6 +10,7 @@ function App(){
     <div className={styles.app}>
         <Home />
         <Switch>
+            <Route path='/home' component={Home} />
           <Route path='/about' component={About} />
           <Route path='/contact' component={Contact} />
         </Switch>

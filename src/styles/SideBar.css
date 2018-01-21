@@ -6,6 +6,7 @@
   border-top-width: thin;
   border-top-color: rgb(255, 255, 255);
   border-bottom: solid;
+  border-style: outset;
   border-right-color: rgb(138, 222, 226);
   border-bottom-color: rgb(138, 222, 226);
   background-color: rgba(255, 255, 255, 0.1);
